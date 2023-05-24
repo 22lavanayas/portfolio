@@ -1,13 +1,13 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.jpg";
+import { ProjectCard } from "./ProjectCard";
 
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
 
@@ -16,7 +16,7 @@ export const Projects = () => {
       title: "PROJECT :",
       description: "Python",
       imgUrl: projImg1,
-      link: "https://github.com/22lavanyasharma/flappy_bird"
+      link: "https://github.com/22lavanayas/flappy-bird"
     },
     {
       title: "PROJECT :",
@@ -28,7 +28,7 @@ export const Projects = () => {
       title: "PROJECT :",
       description: "Python",
       imgUrl: projImg3,
-      link: "https://github.com/22lavanyasharma/search-app"
+      link: "https://github.com/22lavanayas/search-app"
     },
     {
       title: "PROJECT :",
@@ -98,7 +98,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }

@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Front-End-Developer", "UI Designer", "Computer Science Engineering Student"];
+  const toRotate = ["Front-End-Developer", "UI DEsigner","DevOps engineer","AWS Cloud Solution Engineer", "Computer Science Engineering Student"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,9 +57,9 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Lavanya Sharma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End-Developer", "UI DEsigner", "Computer Science Engineering Student" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Lavanya Sharma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End-Developer", "UI DEsigner","DevOps engineer","AWS Cloud Solution Engineer", "Computer Science Engineering Student" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
-                    As a Computer Science Engineering student, I possess a foundation in programming languages such as c++ and Python, and I am experienced in data structures. With a passion for problem-solving and a keen eye for detail, I strive to apply my skills to develop innovative solutions that meet the needs of clients and end-users. I am a motivated self-starter who is able to work both independently and in a team environment, and I am constantly seeking opportunities to learn and grow as a professional.</p>
+                  As a DevOps enthusiast and AWS Cloud Engineer, I am passionate about automating and scaling software systems. Proficient in Python and C++, I'm eager to join a growth-oriented company with a diverse team to make a meaningful impact</p>
                   <br />
                   <p>
                     <h1>EDUCATION</h1>

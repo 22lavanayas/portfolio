@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Front-End-Developer", "UI designer","DevOps engineer","AWS Cloud Solution Engineer", "Computer Science Engineering Student"];
+  const toRotate = ["DevOps engineer", "Front-End-Developer", "UI designer", "AWS Cloud Solution Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Lavanya Sharma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End-Developer", "UI Designer","DevOps engineer","AWS Cloud Solution Engineer", "Computer Science Engineering Student" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Lavanya Sharma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End-Developer", "UI Designer","DevOps engineer","AWS Cloud Solution Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
                   As a DevOps enthusiast and AWS Cloud Engineer, I am passionate about automating and scaling software systems. Proficient in Python and C++, I'm eager to join a growth-oriented company with a diverse team to make a meaningful impact</p>
                   <br />

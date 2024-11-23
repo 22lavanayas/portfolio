@@ -54,7 +54,7 @@ export const Skills = () => {
                                 <h5>FRONT-END-DEVLOPMENT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter1} alt="Image" />
                                 <h5>C</h5>
                             </div>
                             <div className="item">
@@ -62,11 +62,11 @@ export const Skills = () => {
                                 <h5>DATA STRUCTURE AND ALGORITHM</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter3} alt="Image" />
                                 <h5>OBJECT ORIENTED PROGRAMMING</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>TIME-MANAGEMENT</h5>
                             </div>
                             <div className="item">
@@ -76,6 +76,50 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>COMMUNICATION SKILLS</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>AWS</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>TERRAFORM</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>GITHUB-ACTIONS</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>ANSIBLE</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>CHEF</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>JENKINS</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>HELM</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>KUBERNETES</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>DOCKER</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>PROMETHWOUS</h5>
+                            </div>
+        <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>GRAFANA</h5>
                             </div>
                         </Carousel>
                     </div>
